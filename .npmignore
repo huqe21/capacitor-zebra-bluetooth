@@ -1,0 +1,46 @@
+# Source files
+src/
+
+# Config files
+.eslintrc.js
+.prettierrc
+.swiftlint.yml
+tsconfig.json
+rollup.config.js
+
+# iOS development files
+ios/Plugin.xcworkspace/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcuserdata/
+ios/build/
+
+# Android development files
+android/build/
+android/.gradle/
+android/local.properties
+
+# Node
+node_modules/
+
+# Test files
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package manager locks (optional - you might want to keep these)
+package-lock.json

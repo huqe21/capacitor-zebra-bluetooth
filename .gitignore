@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output (if you want to ignore built files in git)
+# dist/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/*.xcworkspace/xcuserdata/
+ios/Plugin.xcworkspace/
+
+# Android
+android/build/
+android/.gradle/
+android/local.properties
+android/libs/*.aar
+android/libs/*.jar
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
